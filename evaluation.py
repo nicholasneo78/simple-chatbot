@@ -35,7 +35,7 @@ bot_name = "Joy"
 
 def get_response(msg):
     if msg == "" or msg.isspace():
-        return "Please type something!"
+        return "Please type something :)"
 
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
@@ -53,4 +53,4 @@ def get_response(msg):
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 return random.choice(intent["responses"])
-    return "I do not understand..."
+    return "I'm sorry, but I don't understand what you're saying :("
