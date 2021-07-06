@@ -33,7 +33,7 @@
         </div>
         <br>
         <div class="row" id="scrollbox" style="overflow-y:scroll; height:500px;">
-            <div class="col">
+            <div class="col" id="aaa">
                 <p id="response"></p>
             </div>
         </div>
@@ -73,8 +73,9 @@
                         question: $("#question").val()
                     },
                     success: function(result) {
-                        $("#response").append("<br>Me: " + $("#question").val() + "<br> Karabo: " + result.response);
-                        $("#question").val("")
+                        $("#response").append("<br>Me: " + $("#question").val() + "<br> " + result.bot_name + ": " + result.response);
+                        $("#scrollbox").scrollTop($("#scrollbox")[0].scrollHeight);
+                        $("#question").val("");
                     },
                     error: function(result) {
                         alert('error');
