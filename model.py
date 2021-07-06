@@ -5,7 +5,6 @@ Created on Mon Jul  5 10:58:49 2021
 @author: NicNeo
 """
 
-import torch
 import torch.nn as nn
 
 class NeuralNet(nn.Module):
