@@ -9,3 +9,6 @@ from flask import Flask, render_template, jsonify, request
 from evaluation import get_response
 
 app = Flask(__name__)
+
+app.config.from_pyfile('config.py')
+
