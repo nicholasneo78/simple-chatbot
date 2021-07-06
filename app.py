@@ -12,3 +12,17 @@ app = Flask(__name__)
 
 app.config.from_pyfile('config.py')
 
+@app.route('/', methods=["GET"])
+def index():
+    return render_template('index.html', **locals())
+
+@app.route('/chat', methods=["POST"])
+def chatbotResponse():
+    if request.method == 'POST':
+        question = request.form['question']
+        response = get_response(question)
+        
+    return jsonify({"response": response})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8888, debug=True)
