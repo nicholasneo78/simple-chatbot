@@ -42,10 +42,12 @@
 
     <script>
         // to do the auto scrolling down when the conversation overflow
+        /*
         window.setInterval(function() {
             var elem = document.getElementById('scrollbox');
             elem.scrollTop = elem.scrollHeight;
         }, 50);
+        */
     </script>
 
     <script src="/static/jquery.min.js"></script>
@@ -60,10 +62,6 @@
                     $("#submit-button").trigger('click');
                 }
             });
-
-            $('#response').animate({
-                scrollBottom: 100000
-            }, 800);
 
             $("#submit-button").click(function(e) {
                 e.preventDefault();
