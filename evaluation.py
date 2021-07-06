@@ -30,13 +30,13 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Joy"
 
 
 def get_response(msg):
     if msg == "" or msg.isspace():
         return "Please type something!"
-    
+
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
