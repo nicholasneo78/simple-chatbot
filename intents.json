@@ -1,84 +1,143 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    }
-  ]
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Harlo",
+                "Hey There",
+                "What's up",
+                "Wassup",
+                "Yo",
+                "Morning",
+                "Evening",
+                "Afternoon"
+            ],
+            "responses": [
+                "Hey there! Anything that I can help? :)",
+                "Hello! What can I help you with?",
+                "Hi there, how can I help?",
+                "Yo, anything I can help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Cya"],
+            "responses": [
+                "See you later, thanks for talking to me :)",
+                "Have a nice day!",
+                "Bye! Come back again soon.",
+                "Cya :D",
+                "Hope you had fun talking to me, see you!",
+                "Enjoy your day :D"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks a lot!",
+                "Really appreciated it",
+                "Appreciated much",
+                "Thank you so much",
+                "Good Job",
+                "Excellent"
+            ],
+            "responses": [
+                "You're Welcome!",
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "It's my pleasure to help you!"
+            ]
+        },
+        {
+            "tag": "acknowledgement",
+            "patterns": [
+                "ok",
+                "great",
+                "cool",
+                "yes",
+                "sure",
+                "okay",
+                "yeah",
+                "ya",
+                "can",
+                "nice",
+                "alright"
+            ],
+            "responses": [
+                ":)",
+                "Happy to help! Any other questions?",
+                "Glad to answer your question!",
+                ":D",
+                "Cool :)"
+            ]
+        },
+        {
+            "tag": "emoji",
+            "patterns": [
+                ":)",
+                ":D",
+                ":))",
+                ":)))",
+                ":DD",
+                "^_^",
+                "(:",
+                "xD",
+                "o.O",
+                ":O",
+                ":P"
+            ],
+            "responses": [
+                ":)",
+                ":D",
+                ":))",
+                ":DD",
+                "^_^",
+                "(:",
+                "xD"
+            ]
+        },
+        {
+            "tag": "bot_name",
+            "patterns": [
+                "What is your name?",
+                "You are?",
+                "You who?",
+                "Who are you?",
+                "May i know your name?",
+                "Who am I speaking to?"
+            ],
+            "responses": [
+                "I'm Joy, nice to meet you! :)",
+                "My name is Joy",
+                "Joy here! :3",
+                "Great to see you, I'm Joy",
+                "Hello, I'm Joy"
+            ]
+        },
+        {
+            "tag": "bot_intro",
+            "patterns": [
+                "What do you do?",
+                "What is your purpose?",
+                "What is your job",
+                "How can you help me?",
+                "Introduce yourself",
+                "You do what?"
+            ],
+            "responses": [
+                "I'm a depression bot. Don't get me wrong, I'm not depressed! I'm here to provide you more information about depression. I can also give you some memes and motivational quotes if you need it! :)",
+                "I provide informations about depression and also share memes or motivational quotes. :)",
+                "I share insights on depression and I can generate memes and motivational quotes. :D"
+            ]
+        }
+
+    ]
 }
