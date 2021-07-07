@@ -53,11 +53,13 @@ SECRET_KEY = 'YOUR KEY HERE'
 D:\simple-chatbot>python chat_terminal.py
 ```
 And then you can start the conversation with the bot  
+  
 7. To run the app, type this in the anaconda prompt:
 ```
 D:\simple-chatbot>python app.py
 ```
 The app will then be on localhost port 8080.  
+  
 8. Go to your brower and type:
 ```
 localhost:8080/
