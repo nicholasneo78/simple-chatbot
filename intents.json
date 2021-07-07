@@ -182,7 +182,7 @@
                 "Depression consequences"
             ],
             "responses": [
-                "The consequences are: Poor performance, sadness and hopelessness, lack of enthusiasm and suicidal thoughts"
+                "The consequences are: Poor performances in work, sadness and hopelessness, lack of enthusiasm and suicidal thoughts"
             ]
         },
         {
@@ -225,18 +225,40 @@
             ]
         },
         {
-            "tag": "memes",
+            "tag": "jokes",
             "patterns": [
                 "Tell me a meme.",
                 "Can you share a meme with me?",
                 "Meme please.",
                 "Meme",
-                "Memes"
+                "Memes",
+                "Jokes",
+                "Tell me a joke please",
+                "What memes do you have?",
+                "What jokes do you have in mind?"
             ],
             "responses": [
-                "",
-                "",
-                ""
+                "What's the best thing about Switzerland? I don't know, but the flag is a big plus.",
+                "I invented a new word! It's called Plagiarism!",
+                "Why do we tell actors to break a leg? Because every play has a cast.",
+                "Heard about the new restaurant called Karma? There's no menu: you get what you deserve",
+                "How do you drown a hipster? Throw him in the mainstream.",
+                "A man tells his doctor 'Doctor, help me, I'm addicted to Twitter!' The doctor replied, 'Sorry, I don't follow you...'",
+                "What do you call a fake noodle? An impasta! (imposter)",
+                "Why did the frog take the bus to work today? His car got 'toad' away",
+                "What is an astronut's favorite part on a computer? The space bar",
+                "Why did the yoghurt go to the art exhibition? Because it was cultured",
+                "What do you call an apology written in dots and dashes? Re-morse code",
+                "How do poets say hello? Hey, haven't we 'metaphor'?",
+                "Why did the Oreo go to the dentist? Because he lost his filling",
+                "What do you get from a pampered cow? Spoiled Milk!",
+                "I poured root beer in a square glass. Now I just have beer",
+                "Why aren't koalas actual bears? Because they don't meet the 'koalafications'",
+                "Why did the nurse need a red pen at work? In case she needed to draw blood.",
+                "How do you throw a space party? You 'planet' ",
+                "Talk is cheap? Have you ever talked to a lawyer?",
+                "Why did the gym close down? Because it just didn't work out.",
+                "Two artists had an art contest. It ended in a draw"
             ]
         }
 
