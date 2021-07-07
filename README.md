@@ -2,7 +2,7 @@
 ### A pet project built out of the interest for chatbots :)
 _A simple chatbot application built using Flask, focusing on information of depression and also generating jokes and motivational quotes._   
    
- ## Libraries needed
+ ## Libraries Needed
 - flask  
 - waitress  
 - random  
@@ -10,6 +10,10 @@ _A simple chatbot application built using Flask, focusing on information of depr
 - pytorch  
 - nltk  
 - numpy  
+
+## Additional Frontend Code Needed
+- bootstrap  
+- jQuery  
    
 ## Code files in this repository
 - templates/index.html => Frontend code to show the simple user interface using HTML, jQuery and Bootstrap    
@@ -54,11 +58,14 @@ And then you can start the conversation with the bot
 D:\simple-chatbot>python app.py
 ```
 The app will then be on localhost port 8080.  
-8. Go on to your brower and type:
+8. Go to your brower and type:
 ```
 localhost:8080/
 ```
-And you will see the chatbot web app.
+And you will see the chatbot web app.  
+
+## Next Step
+To deploy this chat app into an Amazon EC2 instances.
 
 ## Some images of the conversations between user and the chatbot.   
 ![img1](./images/bot1.png)
