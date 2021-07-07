@@ -137,6 +137,107 @@
                 "I provide informations about depression and also share memes or motivational quotes. :)",
                 "I share insights on depression and I can generate memes and motivational quotes. :D"
             ]
+        },
+        {
+            "tag": "what_depression",
+            "patterns": [
+                "What is Depression?",
+                "What Depression?"
+            ],
+            "responses": [
+                "It is the constant feeling of sadness and loss of interest which stops you from doing your normal activities.",
+                "Depression is also known as major depressive disorder, which is a mood disorder that makes you feel constantly sad or lack of interest in life.",
+                "Depression is a mood disorder that casues a persistent feeling of sadness and loss of interest in life and can interfere with your daily functioning."
+            ]
+        },
+        {
+            "tag": "types_depression",
+            "patterns": [
+                "What are the types of depression?",
+                "What are some of the examples of depression?",
+                "Depression examples",
+                "Depression types"
+            ],
+            "responses": [
+                "There are 7 main types of Depression: Persistent Depressive Disorder, Bipolar Disorder, Seasonal Affective Disorder, Psychotic Depression, Postpartum Depression, Premenstrual Dysphoric Disorder and Situational Depression."
+            ]
+        },
+        {
+            "tag": "cause_depression",
+            "patterns": [
+                "What is the causes of Depression?",
+                "What causes Depression?",
+                "Cause of Depression",
+                "Depression cause"
+            ],
+            "responses": [
+                "The causes are: Abuse, Age, Certain Medications, Conflict, Death or Loss, Genes and other personal problems"
+            ]
+        },
+        {
+            "tag": "consequences_depression",
+            "patterns": [
+                "What are the consequences of Depression?",
+                "Consequences of Depression",
+                "Depression consequences"
+            ],
+            "responses": [
+                "The consequences are: Poor performance, sadness and hopelessness, lack of enthusiasm and suicidal thoughts"
+            ]
+        },
+        {
+            "tag": "signs_depression",
+            "patterns": [
+                "What are the signs of Depression?",
+                "Signs of Depression",
+                "Depression signs"
+            ],
+            "responses": [
+                "The signs are: Regularly feel sad, fatigue for no reason, digestive problems and suicidal thoughts"
+            ]
+        },
+        {
+            "tag": "alleviate_depression",
+            "patterns": [
+                "How to alleviate Depression?",
+                "How to cure depression",
+                "Depression alleviation",
+                "Alleviate depression",
+                "How to fight depression"
+            ],
+            "responses": [
+                "Excercise regularly, Light Therapy, Relaxation Training and Self-helped books",
+                "You can do some relaxation training, read some books and exercise regularly"
+            ]
+        },
+        {
+            "tag": "hotline",
+            "patterns": [
+                "How should I seek help?",
+                "What's the hotline",
+                "Where do I get the hotline",
+                "Seek help from where?"
+            ],
+            "responses": [
+                "The Samaritarians Helpline: 1800 221 4444",
+                "You can call 1800 221 4444 for help",
+                ""
+            ]
+        },
+        {
+            "tag": "memes",
+            "patterns": [
+                "Tell me a meme.",
+                "Can you share a meme with me?",
+                "Meme please.",
+                "Meme",
+                "Memes"
+            ],
+            "responses": [
+                "",
+                "",
+                ""
+            ]
         }
 
     ]
