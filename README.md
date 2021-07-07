@@ -31,9 +31,9 @@ OS used: Windows 10
 ```
 D:\simple-chatbot>
 ```  
-2. Make a new file, named it config.py, this file will store the config key needed for Flask application  
+2. Make a new python file, named it config.py, this file will store the config key needed for Flask application  
 ```
-D:\simple-chatbot>nano config.py
+D:\simple-chatbot>vim config.py
 ```  
 3. open another terminal and activate python
 ```
@@ -48,12 +48,12 @@ D:\simple-chatbot>python
 ```python
 SECRET_KEY = 'YOUR KEY HERE'
 ```  
-6. To test the bot on command line, type:
+6. To test the bot on the command line interface, type this in the anaconda prompt:
 ```
 D:\simple-chatbot>python chat_terminal.py
 ```
 And then you can start the conversation with the bot  
-7. To run the app, type:
+7. To run the app, type this in the anaconda prompt:
 ```
 D:\simple-chatbot>python app.py
 ```
