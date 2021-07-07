@@ -171,7 +171,8 @@
                 "What is the causes of Depression?",
                 "What causes Depression?",
                 "Cause of Depression",
-                "Depression cause"
+                "Depression cause",
+                "Tell me the cause of depression"
             ],
             "responses": [
                 "The causes are: Abuse, Age, Certain Medications, Conflict, Death or Loss, Genes and other personal problems"
@@ -193,7 +194,10 @@
             "patterns": [
                 "What are the signs of Depression?",
                 "Signs of Depression",
-                "Depression signs"
+                "Depression signs",
+                "Detecting depression",
+                "How you know someone got depression?",
+                "How to detect depression"
             ],
             "responses": [
                 "The signs are: Regularly feel sad, fatigue for no reason, digestive problems and suicidal thoughts"
