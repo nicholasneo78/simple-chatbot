@@ -65,7 +65,7 @@ localhost:8080/
 And you will see the chatbot web app.  
 
 ## Next Step
-To deploy this chat app into an Amazon EC2 instances.
+To deploy this chat app into an Amazon EC2 instance.
 
 ## Some images of the conversations between user and the chatbot.   
 ![img1](./images/bot1.png)
