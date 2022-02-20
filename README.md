@@ -1,4 +1,4 @@
-# Simple Depression Infromation Bot
+# Simple Depression Information Bot
 ### A pet project built out of the interest for chatbots :)
 _A simple chatbot application built using Flask, focusing on information of depression and also generating jokes and motivational quotes._   
    
